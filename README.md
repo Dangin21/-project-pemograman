@@ -1,8 +1,8 @@
 # Projek Pemograman
-Nama    : I Gusti Surya Dangin Mardika
-Nim     : 312110476
-Kelas   : TI.21.BA.1
-```
+NAMA  : I GUSTI SURYA DANGIN MARDIKA
+NIM   : 312110476
+KELAS : TI.21.BA.1
+
 
 # Cara penyelesaian dan codingan
 Latihan 1 Lab 2
@@ -10,53 +10,21 @@ Latihan 1 Lab 2
 1. Buat program sederhada dengan input 2 buah bilangan, kemudian tentukan bilangan terbesar dari kedua bilangan tersebut menggunakan statement if.
 
 codingannya
-![ing 1](screshoot codingan/2021-11-16 (10).png
+![ing1]https://github.com/Dangin21/-project-pemograman/blob/main/screnshoot%20codingan/2021-11-16%20(7).png
 
-# membuat judul program
-print(' ')
-print('Program menentukan Nilai Terbesar dari 2 bilangan')
+hasilnya
+![ing2]https://github.com/Dangin21/-project-pemograman/blob/main/screnshoot%20codingan/2021-11-16%20(8).png
 
-# input bilangan
-print(' ')
-a = int(input("masukan bilangan pertama: "))
-b = int(input("masukan bilangan kedua: "))
 
-# Menentukan Nilai Bilangan  dengan if else
-print(' ')
-if a > b:
-    maks = a
-else:
-    maks = b
-# mencetak nilai maksimum
-print('Nilai Terbesar adalah %d' % maks)
+Latihan 2 Lab 2
+2. Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
 
-```
-<img width="705" alt="Nilai Terbesar" src="https://user-images.githubusercontent.com/93661771/141132238-878a2dd9-7b5e-4e42-ad42-c83daa57194b.PNG">
+Codingannya
+![ing3]https://github.com/Dangin21/-project-pemograman/blob/main/screnshoot%20codingan/2021-11-16%20(11).png
 
-# Hasil Output Codingan Nilai Terbesar
-<img width="960" alt="output nilai terbesar" src="https://user-images.githubusercontent.com/93661771/141132533-ccab2595-a039-44ce-896b-1f2ee26d154d.PNG">
+hasilnya
+![ing4]https://github.com/Dangin21/-project-pemograman/blob/main/screnshoot%20codingan/2021-11-16%20(10).png
 
-*Latihan 2
-1. Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
-
-# Codingan
-```
-print('')
-print("Program mengurutkan data")
-data = []
-for i in range (3):
-    x = int(input('Masukan bilangan: '))
-    data.append(x)
-print('Data sebelum diurutkan: ', data)
-list.sort(data)
-print('Data sesudah diurutkan: ', data)
-```
-<img width="704" alt="Variable urutan data terkecil" src="https://user-images.githubusercontent.com/93661771/141644854-a7d5bcf1-3d1b-46e0-b2ff-bfabcb55d82a.PNG">
-
-# Hasil Output Codingan Program mengurutkan data
-<img width="941" alt="Output variable" src="https://user-images.githubusercontent.com/93661771/141644874-e8da61c1-4304-4279-9c92-e7257dc29f02.PNG">
-
-# Lab 3 : Perulangan
 
 *Latihan 1
 1. Buat program dengan perulangan bertingkat (nested) for yang menghasilkan output sebagai berikut:
